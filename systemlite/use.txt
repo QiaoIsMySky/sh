@@ -1,0 +1,6 @@
+<h5>apt-get update
+<h5>#Debian/Ubuntu:
+<h5>apt-get install -y xz-utils openssl gawk file
+<h5>#RedHat/CentOS:
+<h5>yum install -y xz openssl gawk file
+<h5>bash <(wget --no-check-certificate -qO- 'https://moeclub.org/attachment/LinuxShell/InstallNET.sh') -d 9 -v 64 -a
