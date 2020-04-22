@@ -19,5 +19,5 @@ cd ~
 mkdir portainer
 cd ./portainer
 docker swarm init
-curl -L https://raw.githubusercontent.com/LinIsMySky/Docker/master/portainer-agent-stack.yml -o portainer-agent-stack.yml
+curl -L https://raw.githubusercontent.com/QiaoIsMySky/sh/master/docker/portainer-agent-stack.yml -o portainer-agent-stack.yml
 docker stack deploy --compose-file=portainer-agent-stack.yml portainer
